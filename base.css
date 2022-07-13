@@ -242,12 +242,7 @@ html{
 .select_intput:hover .select_intput_list {
     display: block;
 }
-.footer_text {
-    display: flex;
-    align-items: center;
-    text-align:center;
-    
-}
+
 
 
 

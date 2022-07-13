@@ -1201,7 +1201,7 @@ i.home_product-item_like-icon-fill {
 }
 .footer_text {
     margin: 0;   
-    justify-content: center;
+    text-align: center;
     font-size: 1.4rem;
     color: #737373;
 }
