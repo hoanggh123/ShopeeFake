@@ -1194,3 +1194,14 @@ i.home_product-item_like-icon-fill {
     line-height:16.8px;
     cursor: pointer;
 }
+.footer_bottom {
+    padding: 24px 0;
+    background-color: #F5F5F5;
+    margin-top: 24px;
+}
+.footer_text {
+    margin: 0;   
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #737373;
+}
