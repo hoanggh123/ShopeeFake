@@ -1207,8 +1207,37 @@ i.home_product-item_like-icon-fill {
     margin-top: 24px;
 }
 .footer_text {
-    margin: 0;   
+    margin: 36px 0 0 0;   
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #737373;
+}
+.footer_information {
+    display: flex;
+    font-size: 1.6rem;
+    color: #737373; 
+}
+.footer_nation {
+    display: flex;
+    padding-left:36px;
+    margin-left: 5px;
+    align-items: center;
+}
+.footer_title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.footer_country {
+    padding: 0px 5px;
+    margin-left: 5px;
+    border-right:1px solid #ccc;
+    cursor: pointer;
+}
+.country-bottom {
+    border: none;
+}
+.footer_title:hover,
+.footer_country:hover{
+    color:var(--primary-color);
 }
