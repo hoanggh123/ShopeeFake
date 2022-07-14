@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.0.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/1147679ae7.js"></script>
-    <link rel="stylesheet" href="main.js">
+    <script src="main.js"></script>
 
 </head>
 <body>
@@ -125,9 +125,10 @@
                             <span class="header_navbar-title-no--pointer">Trợ giúp</span>
                                
                            </a>
+                           
                        </li>
-                       <!-- <li class="header_navbar-item header_navbar-item--strong header_navbar-item--separate">Đăng kí</li>
-                       <li class="header_navbar-item header_navbar-item--strong">Đăng nhập</li> -->
+                       <li class="header_navbar-item header_navbar-item--strong header_navbar-item--separate" id="btn1" onclick="dangki()">Đăng kí</li>
+                       <li class="header_navbar-item header_navbar-item--strong" id="btn2" onclick="dangnhap()">Đăng nhập</li>
                        <li class="header_navbar-item header_navbar-user">
                            <img src="assets/images/programmer-minh-hoa-962310-1413006989.jpg" alt="" class="header_navbar-user-img">
                            <span  class="header_navbar-user-name">Đỗ Huy Hoàng</span>
@@ -1555,10 +1556,10 @@
  
     
      
-   <div class="modal">
+   <div id="form" class="modal">
        <div class="modal_body"> 
             <!-- Form đăng kí -->
-            <div class="auth-form auth-form--register">
+            <div id="auth-form--register" class="auth-form">
                 <div class="auth-form_container">
                     <div class="auth-form_header">
                         <h3 class="auth-form_heading">Đăng kí</h3>
@@ -1583,7 +1584,7 @@
                         </p>
                     </div>
                     <div class="auth-form_controls">
-                        <button class="bnt bnt--normal auth-form_controls-black">TRỞ LẠI</button>
+                        <button onclick="exitregister()"  class="bnt bnt--normal auth-form_controls-black">TRỞ LẠI</button>
                         <button class="bnt bnt--primary">ĐĂNG KÍ</button>
                     </div>
                 </div>
@@ -1603,7 +1604,7 @@
                 </div>
             </div>   
               <!-- Form đăng nhập -->
-            <div class="auth-form auth-form--login"> 
+            <div id="auth-form--login" class="auth-form"> 
                 <div class="auth-form_container">
                     <div class="auth-form_header">
                         <h3 class="auth-form_heading">Đăng nhập</h3>
@@ -1625,7 +1626,7 @@
                         </div>
                     </div>
                     <div class="auth-form_controls">
-                        <button class="bnt bnt--normal auth-form_controls-black">TRỞ LẠI</button>
+                        <button onclick="exitlogin()" class="bnt bnt--normal auth-form_controls-black">TRỞ LẠI</button>
                         <button class="bnt bnt--primary ">ĐĂNG NHẬP</button>
                     </div>
                 </div>
@@ -1645,6 +1646,20 @@
                 </div> 
             </div> 
        </div>
-   </div>  -->
+   </div>
 </body>
+<!-- <script language="javascript">
+        document.getElementById("btn1").onclick = function () {
+        document.getElementById("form").style.position = 'fixed';
+        document.getElementById("auth-form--register").style.display = 'block';
+        document.getElementById("auth-form--login").style.display = 'none';
+        
+        
+    };
+        document.getElementById("btn2").onclick = function () {
+        document.getElementById("form").style.position = 'fixed';
+        document.getElementById("auth-form--register").style.display = 'none';
+        document.getElementById("auth-form--login").style.display = 'block';   
+    }; -->
+</script>
 </html>
