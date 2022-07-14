@@ -77,7 +77,8 @@ html{
         }
 }
 .modal{
-    position: fixed;
+    
+    
     top: 0;
     right: 0;
     bottom: 0;
@@ -85,6 +86,7 @@ html{
     display: flex;
     animation: fadeIn linear 0.5s;
 }
+
 .modal_overlay{
     position: absolute;
     width: 100%;

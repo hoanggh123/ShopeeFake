@@ -395,32 +395,51 @@
     text-align: center;
     justify-content:  space-between;
     margin-top: 22px;
+}
+.auth-form--register {
+    display: none;
+}
+.auth-form--login {
+    display: none;
+}
+.bnt--size-s {
+    border-radius: 2px;
+    margin:5px;
+    padding:0px 8px 0px 2px;
+    width: 109px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
     
 }
-
 .auth-form_socials-icon{
     font-size: 1.8rem;
+    margin-left:8px;
 }
 .auth-form_socials--facebook {
-    
-    
     background-color: #3A5A98;
-
 }
-
 .auth-form_socials--facebook
 .auth-form_socials-icon {
     color: var(--white-color);
-    
-
 }
 .auth-form_socials--title{
-    margin: 0 24px;
+    margin: 0 5px;
+    font-size: 1.6rem;
     color: var(--white-color);
 }
 .auth-form_socials--gg{
-    margin: 0 24px;
-    
+    margin: 0 5px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+.bnt--with-icon-fb:hover{
+    background-color: #345cab;
+}
+.bnt--with-icon--gg:hover{
+    background-color: #f7f3f3;
 }
 .auth-form_socials--google{
     background-color:var(--white-color);
