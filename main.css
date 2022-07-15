@@ -544,6 +544,7 @@
     border-radius: 2px;
     box-shadow: 0 1px 3.15rem rgba(0,0,0, 0.2);
     display: none;
+    
     cursor: default;
     animation: fadeIn ease-in 0.3s;
     z-index: 1;
@@ -560,6 +561,7 @@
     list-style: none;
     height: 50vh;
     overflow-y: auto;
+    
 
 }
 .header_cart-item{
@@ -653,10 +655,14 @@
 .header_cart-no-cart-img{
     width: 50%;
     display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
 .header_cart-list-no-cart-msg{
     display: none;
-    /* display: block; */
+    
     font-size: 1.4rem;
     margin-top: 20px;
     color: var(--text-color);
@@ -748,7 +754,6 @@
 .header_search-option-item{
     background-color: var(--white-color);
     padding: 8px 8px;
-  
     font-size: 1.4rem;
 
 }
