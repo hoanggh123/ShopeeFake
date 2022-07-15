@@ -246,6 +246,10 @@ html{
 #auth-form--register{
     display: none;
 }
+#auth-form--login {
+    display: none;
+}
+
 
 
 

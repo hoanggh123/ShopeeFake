@@ -3,6 +3,7 @@ function dangnhap() {
         document.getElementById("form").style.position = 'fixed';
         document.getElementById("auth-form--register").style.display = 'none';
         document.getElementById("auth-form--login").style.display = 'block';
+        document.getElementById("auth-form--login").style.animation = 'fadeIn linear 0.5s';
         
         
     };
@@ -10,7 +11,8 @@ function dangki() {
         
         document.getElementById("form").style.position = 'fixed';
         document.getElementById("auth-form--register").style.display = 'block';
-        document.getElementById("auth-form--login").style.display = 'none';   
+        document.getElementById("auth-form--login").style.display = 'none';  
+        document.getElementById("auth-form--register").style.animation = 'fadeIn linear 0.5s'; 
     
 };
 function exitlogin() {
