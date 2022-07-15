@@ -724,6 +724,7 @@
     border-radius: 3px;
     box-shadow: 0 1px 2px #e0e0e0;
     display: none;
+    margin-top: 15px;
     animation: fadeIn ease-in 0.5s;
     
     
@@ -746,10 +747,8 @@
 
 .header_search-option-item{
     background-color: var(--white-color);
- 
     padding: 8px 8px;
-    
-    margin-top: 5px;
+  
     font-size: 1.4rem;
 
 }
