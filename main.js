@@ -27,6 +27,4 @@ function remove() {
     document.getElementById("header_cart-list-no-cart-msg").style.display = 'block';
 }
 
-    
-
-
+s

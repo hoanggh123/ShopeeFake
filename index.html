@@ -19,14 +19,12 @@
    <div class="app">
        <header class="header">
            <div class="grid">
-    
                <nav class="header_navbar">
                    <ul class="header_navbar-list">
                        <li class="header_navbar-item header_navbar-item-has-qr header_navbar-item--separate ">
                            Vào cửa hàng trên Ứng dụng TH shop
                            <div class="header_qr">
                                <img src="assets/images/qr_code.png" alt="" class="header_qr-img">
-      
                            <div class="header_qr-apps">
                                <a href="" class="header_qr-link">
                                     <img src="assets/images/apps.png" alt="" class="header-qr-download-img">
@@ -123,9 +121,7 @@
                            <a href="" class="header_navbar-item-link">
                             <i class="header_navbar-icon fa-solid fa-circle-question"></i>
                             <span class="header_navbar-title-no--pointer">Trợ giúp</span>
-                               
-                           </a>
-                           
+                           </a>    
                        </li>
                        <li class="header_navbar-item header_navbar-item--strong header_navbar-item--separate" id="btn1" onclick="dangki()">Đăng kí</li>
                        <li class="header_navbar-item header_navbar-item--strong" id="btn2" onclick="dangnhap()">Đăng nhập</li>
@@ -214,9 +210,9 @@
                                 Chưa có sản phẩm
                             </span>
                             <h4 id="header_cart-heading" class="header_cart-heading">Sản phẩm đã thêm</h4>
-                            <ul  id="header_cart-list-item_remove" class="header_cart-list-item">
+                            <ul  id="header_cart-list-item_remove" class="header_cart-list-item" >
                                 <!--Sản phẩm đã thêm-->
-                                <li class="header_cart-item">
+                                <li class="header_cart-item" id="cart">
                                     <img src="https://tepbac.com/upload/species/ge_image/penaeus_monodon_el_1.jpg" alt="" class="header_cart-img">
                                     <div class="header_cart-item-info">
                                         <div class="header_cart-item-head">
@@ -232,16 +228,12 @@
                                                 Phân loại: Tôm sú
                                             </span>
                                             <span class="header_cart-item-remove" onclick="remove();">Xóa</span>
-
                                         </div>
                                     </div>
-
                                 </li>
+                                
                             </ul>
-
                                 <a onclick="checkCartList()" href="" class="header_cart-view-cart bnt bnt--primary">Xem giỏ hàng</a>
-                            
-
                         </div>
                         </div>
                     </div>
@@ -307,7 +299,7 @@
                     <div class="grid_row">
                         <div class="grid_column-2-4">
                             <div class="home_product-item">
-                                <div class="home_product-item_img" style="background-image:url(https://lzd-img-global.slatic.net/g/p/ce28488f8f67aaa3eba1dda701915208.png) ;"></div>
+                                <div id="cart-img" class="home_product-item_img" style="background-image:url(https://lzd-img-global.slatic.net/g/p/ce28488f8f67aaa3eba1dda701915208.png) ;"></div>
                                 <h4 class="home_product-item_name">Bia Tiger hàng chất lượng cao uống không say không lấy tiền ạ.Cam kết hoàn trả</h4>
                                 <div class="home_product-item_price">
                                     <span class="home_product-item_price-old">1.200.200đ</span>
@@ -329,7 +321,7 @@
                                 </div>
                                 <div class="home_product-item_origin">
                                     <span class="home_product-item_brannd">ThaiGơ</span>
-                                    <button onclick="them(this)">Thêm</button>
+                                    <button  onclick="them(this)">Chọn</button>
                                     <span class="home_product-item_origin_name">Việt Nam</span>
                                 </div>
                                 <div class="home_product-item_favourite">
