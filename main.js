@@ -26,5 +26,3 @@ function remove() {
     document.getElementById("header_cart-heading").style.display = 'none';
     document.getElementById("header_cart-list-no-cart-msg").style.display = 'block';
 }
-
-s
