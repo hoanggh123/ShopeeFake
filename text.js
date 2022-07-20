@@ -211,7 +211,6 @@
                 }
                 // alert(sum+ " "+"ddaay la ket qua");
                  return sum;
-                
             }
             console.log(array(mang));
         //Tổng các số trong mảng chia hết cho 2
@@ -237,7 +236,6 @@
                     }
                 }
                 return sum3;
-                
             }
             console.log(array3(mang3));
         //Giai phương trường bậc 1
@@ -270,6 +268,52 @@
                     res = "Phương trình có nghiệm x = " + (-b/a);
                 }
                 document.getElementById('demo5').innerHTML = res;
+            }
+        //Giai phương trường bậc 2
+            function dieukiengia(){
+                /^-?\d*$/.test(value);
+                let gt1 = document.getElementById('gt1').value;
+                let gt2 = document.getElementById('gt2').value;
+                let gt3= document.getElementById('gt3').value;
+                if (gt1 == "" && gt2 == "" && gt3 == "") {
+                    alert("Vui lòng nhập đầy đủ dữ liệu");
+                    return;
+                }
+                if (gt2 == "" && gt1 != "" && gt3 != "") {
+                    alert("Vui lòng nhập giá trị 2 ");
+                    return;
+                    
+                }
+                if (gt1 == "" && gt2 != "" && gt3 != "") {
+                    alert("Vui lòng nhập giá trị 1");
+                    return;
+                    
+                }
+                if (gt1 != "" && gt2 != "" && gt3 == "") {
+                    alert("Vui lòng nhập giá trị 3 ");
+                    return;
+                    
+                }
+                if (gt1 == "" && gt2 == "" && gt3 != "") {
+                    alert("Vui lòng nhập giá trị 1 và giá trị 2");
+                    return;
+                    
+                }
+                if (gt1 == "" && gt3 == "" && gt2 != "") {
+                    alert("Vui lòng nhập giá trị 1 và giá trị 3");
+                    return;
+                    
+                }
+                if (gt1 != "" && gt2 == "" && gt3 == "") {
+                    alert("Vui lòng nhập giá trị 2 và giá trị 3");
+                    return;
+                }
+                if(/^-?\d*$/.test(value) == ""){
+                    alert("Gía trị nhập vào ko hợp lệ");
+                }
+                 else {
+                    alert("Nhập thành công vui lòng đợi tính toán");    //  
+                }
             }
             
             
