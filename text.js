@@ -203,6 +203,7 @@
                 document.getElementById("demo4").innerHTML = res;
             }
         //Tính tổng của nhiều phần tử trong 1 mảng
+            let mang = [2,5,6,10,20];
             function array(mang) {
                 let sum = 0;
                 for (let i = 0; i < mang.length; i++) {
@@ -212,8 +213,33 @@
                  return sum;
                 
             }
-            let mang = [2,5,6,10,20];
             console.log(array(mang));
+        //Tổng các số trong mảng chia hết cho 2
+            let mang2 = [2,5,6,10,20,11];
+            function array2(mang2) {
+                let sum2 = 0;
+                for (let i = 0; i < mang2.length; i++) {
+                    if (mang2[i] % 2 == 0) {
+                        sum2 += mang2[i];
+                    }
+                }
+                return sum2;
+            }
+            console.log(array2(mang2));
+            console.log(mang2);
+        //Tổng các số trong mảng chia hết cho 3
+            let mang3 = [1,3,6,7,10,12,16,21]
+            function array3(mang3) {
+                let sum3 = 0;
+                for (let i = 0; i < mang3.length; i++) {
+                    if (mang3[i]%3 == 0){
+                        sum3 += mang3[i];
+                    }
+                }
+                return sum3;
+                
+            }
+            console.log(array3(mang3));
         //Giai phương trường bậc 1
             function dieukien() {
                 let a = document.getElementById("a").value;
@@ -223,12 +249,9 @@
                 }else{
                     a = Number(a);
                     b = Number(b);
-                    giai_pt_bac_nhat(a, b);
-                    
-                    
+                    giai_pt_bac_nhat(a, b);     
                 }
             }
-
             function giai_pt_bac_nhat(a, b){
                 if (a == 0 && b == 0){
                     alert('Phương trình vô số nghiệm');
