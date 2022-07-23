@@ -186,7 +186,6 @@ html{
     left: 4px;
     content: "";
     transform: translateY(calc(-50%));
-   
     border: 4px solid var(--black-color);
     border-color: transparent transparent transparent var(--primary-color);
 }

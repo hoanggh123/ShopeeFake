@@ -269,6 +269,7 @@
 .header_notify-list{
     list-style-type: none !important;
     padding-left: 0;
+    display: none;
 }
 .header_notify-item{
     display: flex;
@@ -555,12 +556,14 @@
     font-size: 1.4rem;
     color:#999;
     font-weight: 400;
+    display: none;
 }
 .header_cart-list-item{
     padding-left: 0;
     list-style: none;
     height: 50vh;
     overflow-y: auto;
+    display: none;
     
 
 }
@@ -654,15 +657,14 @@
 }
 .header_cart-no-cart-img{
     width: 50%;
-    display: none;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     
     
 }
 .header_cart-list-no-cart-msg{
-    display: none;
-    
+    display: block;
     font-size: 1.4rem;
     margin-top: 20px;
     color: var(--text-color);
@@ -935,6 +937,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    cursor: pointer;
 }
 .home_product-item_name{
     font-size: 1.4rem;
@@ -948,6 +951,7 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+    cursor: pointer;
     
 
 }
