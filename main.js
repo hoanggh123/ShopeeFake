@@ -32,9 +32,9 @@ function link() {
     categoryitemlinkmale.classList.add('category-item-active');
     categoryitemlinkfemale.classList.remove('category-item-active');
     categoryitemlinkchildren.classList.remove('category-item-active');
-    document.getElementById("category-item-link-male").style.color = 'var(--primary-color)';
-    document.getElementById("category-item-link-female").style.color = 'var(--text-color)';
-    document.getElementById("category-item-link-children").style.color = 'var(--text-color)';
+    // document.getElementById("category-item-link-male").style.color = 'var(--primary-color)';
+    // document.getElementById("category-item-link-female").style.color = 'var(--text-color)';
+    // document.getElementById("category-item-link-children").style.color = 'var(--text-color)';
     
    
 }
@@ -44,11 +44,146 @@ function link2() {
     var categoryitemlinkfemale = document.getElementById("category-item-female");
     categoryitemlinkmale.classList.remove('category-item-active');
     categoryitemlinkchildren.classList.add('category-item-active');
-    categoryitemlinkfemale.classList.remove('category-item-active');
-
-    document.getElementById("category-item-link-male").style.color = 'var(--text-color)';
-    document.getElementById("category-item-link-female").style.color = 'var(--text-color)';
-    document.getElementById("category-item-link-children").style.color = 'var(--primary-color)';
+    categoryitemlinkfemale.classList.remove('category-item-active');    
+    // document.getElementById("category-item-link-male").style.color = 'var(--text-color)';
+    // document.getElementById("category-item-link-female").style.color = 'var(--text-color)';
+    // document.getElementById("category-item-link-children").style.color = 'var(--primary-color)';
 
    
+}
+
+    
+function pages2() {
+    var pages1 = document.getElementById("pages1");
+    var pages2 = document.getElementById("pages2");
+    var pages3 = document.getElementById("pages3");
+    var pages4 = document.getElementById("pages4");
+    var pages5 = document.getElementById("pages5");
+    var pages6 = document.getElementById("pages6");
+    var pages7 = document.getElementById("pages7");
+    var pages14 = document.getElementById("pages14");
+    pages2.classList.add('pagination-item--active');
+    pages1.classList.remove('pagination-item--active');
+    pages3.classList.remove('pagination-item--active');
+    pages4.classList.remove('pagination-item--active');
+    pages5.classList.remove('pagination-item--active');
+    pages6.classList.remove('pagination-item--active');
+    pages7.classList.remove('pagination-item--active');
+    pages14.classList.remove('pagination-item--active');
+    
+}
+function pages3() {
+    var pages1 = document.getElementById("pages1");
+    var pages2 = document.getElementById("pages2");
+    var pages3 = document.getElementById("pages3");
+    var pages4 = document.getElementById("pages4");
+    var pages5 = document.getElementById("pages5");
+    var pages6 = document.getElementById("pages6");
+    var pages7 = document.getElementById("pages7");
+    var pages14 = document.getElementById("pages14");
+    pages3.classList.add('pagination-item--active');
+    pages1.classList.remove('pagination-item--active');
+    pages2.classList.remove('pagination-item--active');
+    pages4.classList.remove('pagination-item--active');
+    pages5.classList.remove('pagination-item--active');
+    pages6.classList.remove('pagination-item--active');
+    pages7.classList.remove('pagination-item--active');
+    pages14.classList.remove('pagination-item--active');
+    
+}
+
+function pages4() {
+    var pages1 = document.getElementById("pages1");
+    var pages2 = document.getElementById("pages2");
+    var pages3 = document.getElementById("pages3");
+    var pages4 = document.getElementById("pages4");
+    var pages5 = document.getElementById("pages5");
+    var pages6 = document.getElementById("pages6");
+    var pages7 = document.getElementById("pages7");
+    var pages14 = document.getElementById("pages14");
+    pages4.classList.add('pagination-item--active');
+    pages1.classList.remove('pagination-item--active');
+    pages3.classList.remove('pagination-item--active');
+    pages2.classList.remove('pagination-item--active');
+    pages5.classList.remove('pagination-item--active');
+    pages6.classList.remove('pagination-item--active');
+    pages7.classList.remove('pagination-item--active');
+    pages14.classList.remove('pagination-item--active');
+    
+}
+function pages5() {
+    var pages1 = document.getElementById("pages1");
+    var pages2 = document.getElementById("pages2");
+    var pages3 = document.getElementById("pages3");
+    var pages4 = document.getElementById("pages4");
+    var pages5 = document.getElementById("pages5");
+    var pages6 = document.getElementById("pages6");
+    var pages7 = document.getElementById("pages7");
+    var pages14 = document.getElementById("pages14");
+    pages5.classList.add('pagination-item--active');
+    pages1.classList.remove('pagination-item--active');
+    pages3.classList.remove('pagination-item--active');
+    pages4.classList.remove('pagination-item--active');
+    pages2.classList.remove('pagination-item--active');
+    pages6.classList.remove('pagination-item--active');
+    pages7.classList.remove('pagination-item--active');
+    pages14.classList.remove('pagination-item--active');
+    
+}
+function pages6() {
+    var pages1 = document.getElementById("pages1");
+    var pages2 = document.getElementById("pages2");
+    var pages3 = document.getElementById("pages3");
+    var pages4 = document.getElementById("pages4");
+    var pages5 = document.getElementById("pages5");
+    var pages6 = document.getElementById("pages6");
+    var pages7 = document.getElementById("pages7");
+    var pages14 = document.getElementById("pages14");
+    pages6.classList.add('pagination-item--active');
+    pages1.classList.remove('pagination-item--active');
+    pages3.classList.remove('pagination-item--active');
+    pages4.classList.remove('pagination-item--active');
+    pages5.classList.remove('pagination-item--active');
+    pages2.classList.remove('pagination-item--active');
+    pages7.classList.remove('pagination-item--active');
+    pages14.classList.remove('pagination-item--active');
+    
+}
+function pages7() {
+    var pages1 = document.getElementById("pages1");
+    var pages2 = document.getElementById("pages2");
+    var pages3 = document.getElementById("pages3");
+    var pages4 = document.getElementById("pages4");
+    var pages5 = document.getElementById("pages5");
+    var pages6 = document.getElementById("pages6");
+    var pages7 = document.getElementById("pages7");
+    var pages14 = document.getElementById("pages14");
+    pages7.classList.add('pagination-item--active');
+    pages1.classList.remove('pagination-item--active');
+    pages3.classList.remove('pagination-item--active');
+    pages4.classList.remove('pagination-item--active');
+    pages5.classList.remove('pagination-item--active');
+    pages6.classList.remove('pagination-item--active');
+    pages2.classList.remove('pagination-item--active');
+    pages14.classList.remove('pagination-item--active');
+    
+}
+function pages14() {
+    var pages1 = document.getElementById("pages1");
+    var pages2 = document.getElementById("pages2");
+    var pages3 = document.getElementById("pages3");
+    var pages4 = document.getElementById("pages4");
+    var pages5 = document.getElementById("pages5");
+    var pages6 = document.getElementById("pages6");
+    var pages7 = document.getElementById("pages7");
+    var pages14 = document.getElementById("pages14");
+    pages14.classList.add('pagination-item--active');
+    pages1.classList.remove('pagination-item--active');
+    pages2.classList.remove('pagination-item--active');
+    pages4.classList.remove('pagination-item--active');
+    pages5.classList.remove('pagination-item--active');
+    pages6.classList.remove('pagination-item--active');
+    pages7.classList.remove('pagination-item--active');
+    pages2.classList.remove('pagination-item--active');
+    
 }
