@@ -187,7 +187,34 @@ function pages14() {
     pages2.classList.remove('pagination-item--active');  
 }
 function filterclick() {
-    var firter  = document.getElementById("fiiter");
-    firter.classList.add('bnt--primary');
-    
+    var filernew = document.getElementById('filternew');
+    var filter  = document.getElementById("fiiter");
+    var popular = document.getElementById("filterpopular");
+    filter.classList.add('bnt--primary');
+    filernew.classList.remove('bnt--primary');
+    popular.classList.remove('bnt--primary');
+}
+function popular() {
+    var popular  = document.getElementById("filter--popular");
+    var news = document.getElementById('filter--new');
+    var seller = document.getElementById("filter--seller");
+    popular.classList.add('bnt--primary');
+    news.classList.remove('bnt--primary');
+    seller.classList.remove('bnt--primary');
+}
+function news() {
+    var popular  = document.getElementById("filter--popular");
+    var news = document.getElementById('filter--new');
+    var seller = document.getElementById("filter--seller");
+    popular.classList.remove('bnt--primary');
+    news.classList.add('bnt--primary');
+    seller.classList.remove('bnt--primary');
+}
+function seller() {
+    var popular  = document.getElementById("filter--popular");
+    var news = document.getElementById('filter--new');
+    var seller = document.getElementById("filter--seller");
+    popular.classList.remove('bnt--primary');
+    news.classList.remove('bnt--primary');
+    seller.classList.add('bnt--primary');
 }

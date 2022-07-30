@@ -870,6 +870,9 @@
     line-height: 1.6rem;
     margin-right: 16px;
 }
+.linkfilter {
+    background-color: var(--white-color);
+}
 .home-filter_lable {
     font-size: 1.4rem;
     color: #555;
