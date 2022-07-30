@@ -32,9 +32,9 @@ function link() {
     categoryitemlinkmale.classList.add('category-item-active');
     categoryitemlinkfemale.classList.remove('category-item-active');
     categoryitemlinkchildren.classList.remove('category-item-active');
-    // document.getElementById("category-item-link-male").style.color = 'var(--primary-color)';
-    // document.getElementById("category-item-link-female").style.color = 'var(--text-color)';
-    // document.getElementById("category-item-link-children").style.color = 'var(--text-color)';
+    document.getElementById("category-item-link-male").style.color = 'var(--primary-color)';
+    document.getElementById("category-item-link-female").style.color = 'var(--text-color)';
+    document.getElementById("category-item-link-children").style.color = 'var(--text-color)';
     
    
 }
@@ -45,9 +45,9 @@ function link2() {
     categoryitemlinkmale.classList.remove('category-item-active');
     categoryitemlinkchildren.classList.add('category-item-active');
     categoryitemlinkfemale.classList.remove('category-item-active');    
-    // document.getElementById("category-item-link-male").style.color = 'var(--text-color)';
-    // document.getElementById("category-item-link-female").style.color = 'var(--text-color)';
-    // document.getElementById("category-item-link-children").style.color = 'var(--primary-color)';
+    document.getElementById("category-item-link-male").style.color = 'var(--text-color)';
+    document.getElementById("category-item-link-female").style.color = 'var(--text-color)';
+    document.getElementById("category-item-link-children").style.color = 'var(--primary-color)';
 
    
 }
@@ -184,6 +184,10 @@ function pages14() {
     pages5.classList.remove('pagination-item--active');
     pages6.classList.remove('pagination-item--active');
     pages7.classList.remove('pagination-item--active');
-    pages2.classList.remove('pagination-item--active');
+    pages2.classList.remove('pagination-item--active');  
+}
+function filterclick() {
+    var firter  = document.getElementById("fiiter");
+    firter.classList.add('bnt--primary');
     
 }
