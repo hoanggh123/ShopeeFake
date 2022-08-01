@@ -218,3 +218,21 @@ function seller() {
     news.classList.remove('bnt--primary');
     seller.classList.add('bnt--primary');
 }
+function inside() {
+    var outside = document.getElementById("header_search-option-item--active--outside");
+    var inside = document.getElementById("header_search-option-item--active");
+    outside.classList.remove('header_search-option-item--active');
+    inside.classList.add('header_search-option-item--active');
+    resinside = "Trong shop";
+    document.getElementById("header_search-select-label--new").innerHTML = resinside
+    
+}
+function outside() {
+    var outside = document.getElementById("header_search-option-item--active--outside");
+    var inside = document.getElementById("header_search-option-item--active");
+    outside.classList.add('header_search-option-item--active');
+    inside.classList.remove('header_search-option-item--active');
+    resoutside = "Ngoài shop";
+    document.getElementById("header_search-select-label--new").innerHTML = resoutside;
+     
+}
