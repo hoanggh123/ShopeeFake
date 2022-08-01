@@ -236,3 +236,12 @@ function outside() {
     document.getElementById("header_search-select-label--new").innerHTML = resoutside;
      
 }
+function priceincrease() {
+    GETARAISE = "Giá: Thấp đến cao";
+    document.getElementById("select_intput_item--price").innerHTML = GETARAISE;  
+}
+function reducedprice() {
+    REDUCE = "Giá: Cao đến thấp"
+    document.getElementById("select_intput_item--price").innerHTML = REDUCE;
+    
+}
